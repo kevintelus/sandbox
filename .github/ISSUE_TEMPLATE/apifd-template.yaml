@@ -47,14 +47,14 @@ body:
       value:
     validations:
       required: false
-- type: input
-    id: wbscode
-    attributes:
-      label: WBS code
-      description: "Some charges may be required for engagement and assessment.  Depending on the complexity of hte engagement this could range between 1 day to 1 week."
-      placeholder:
-      value:
-    validations:
-      required: true
+  - type: input
+      id: wbscode
+      attributes:
+        label: WBS code
+        description: "Some charges may be required for engagement and assessment.  Depending on the complexity of hte engagement this could range between 1 day to 1 week."
+        placeholder:
+        value:
+      validations:
+        required: true
         
   
