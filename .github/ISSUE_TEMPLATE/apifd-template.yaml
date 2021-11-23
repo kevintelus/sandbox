@@ -18,7 +18,6 @@ body:
       options:
         - Guided
         - Self-serve
-      description: If selecting Self-Serve, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.
     validations:
       required: true
   - type: textarea
