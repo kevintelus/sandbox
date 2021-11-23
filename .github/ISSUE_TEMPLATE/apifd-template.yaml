@@ -46,7 +46,7 @@ body:
       value:
     validations:
       required: false
-- type: input
+  - type: input
     id: wbscode
     attributes:
       label: WBS code
