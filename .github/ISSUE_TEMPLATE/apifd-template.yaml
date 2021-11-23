@@ -11,6 +11,16 @@ body:
         This is the first step in the API onboarding process to Kong.  A request should be submitted for:
         * Onboarding new or updated APIs to Kong
         * Engagement with IA for guidance on IA approach
+  - type: dropdown
+    id: selfserveflag
+    attributes:
+      label: Choose your preferred approach
+      options:
+        - Guided
+        - Self-serve
+      description: If selecting Self-Serve, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.
+    validations:
+      required: true
   - type: textarea
     id: summary
     attributes:
@@ -27,4 +37,23 @@ body:
       value:
     validations:
       required: true
+  - type: input
+    id: api-version
+    attributes:
+      label: API version
+      description: Provide the proposed version number (#.#)
+      placeholder: 1.2
+      value:
+    validations:
+      required: false
+- type: input
+    id: wbscode
+    attributes:
+      label: WBS code
+      description: Some charges may be required for engagement and assessment.  Depending on the complexity of hte engagement this could range between 1 day to 1 week.
+      placeholder:
+      value:
+    validations:
+      required: true
+        
   
