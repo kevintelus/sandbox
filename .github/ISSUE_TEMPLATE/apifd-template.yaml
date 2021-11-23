@@ -41,7 +41,7 @@ body:
     attributes:
       label: API version
       description: "Provide the proposed version number (#.#)"
-      placeholder: 1.2
+      placeholder: "1.2"
       value:
     validations:
       required: false
