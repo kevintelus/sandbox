@@ -18,21 +18,21 @@ body:
       options:
         - Guided
         - Self-serve
-    description: If selecting Self-Serve, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.        
+    description: "If selecting Self-Serve, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding."
     validations:
       required: true
   - type: textarea
     id: summary
     attributes:
       label: Description
-      description: Describe your changes
+      description: "Describe your changes"
     validations:
       required: true
   - type: textarea
     id: apiname
     attributes:
       label: API name
-      description: Provide name(s) of proposed API(s) if you know them.  They will be updated to the actual API name(s) later on once they are finalized.
+      description: "Provide name(s) of proposed API(s) if you know them.  They will be updated to the actual API name(s) later on once they are finalized."
       placeholder:
       value:
     validations:
@@ -41,7 +41,7 @@ body:
     id: api-version
     attributes:
       label: API version
-      description: Provide the proposed version number (#.#)
+      description: "Provide the proposed version number (#.#)"
       placeholder: 1.2
       value:
     validations:
@@ -50,7 +50,7 @@ body:
     id: wbscode
     attributes:
       label: WBS code
-      description: Some charges may be required for engagement and assessment.  Depending on the complexity of hte engagement this could range between 1 day to 1 week.
+      description: "Some charges may be required for engagement and assessment.  Depending on the complexity of hte engagement this could range between 1 day to 1 week."
       placeholder:
       value:
     validations:
