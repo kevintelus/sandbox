@@ -1,6 +1,6 @@
 name: Self-serve API Front Door Ticket
 description: Create a self-serve API front door ticket
-title: 
+title: "Short title for your API" 
 labels: ["self-serve"]
 assignees:
   - kevintelus
