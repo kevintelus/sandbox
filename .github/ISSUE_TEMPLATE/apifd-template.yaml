@@ -23,10 +23,10 @@ body:
     id: summary
     attributes:
       label: Description
-      description: "Provide details about your API (description, purpose, proposal, etc.)"
+      description: "Provide some details about your API (description and purpose)"
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: apiname
     attributes:
       label: API name
