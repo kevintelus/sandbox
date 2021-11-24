@@ -40,10 +40,10 @@ body:
     attributes:
       label: API version
       description: "Provide the proposed version number (#.#)"
-      placeholder: "1.2"
+      placeholder: "1.0"
       value:
     validations:
-      required: false
+      required: true
   - type: dropdown
     id: category
     attributes:
