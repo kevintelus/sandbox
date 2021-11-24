@@ -56,6 +56,31 @@ body:
         - System
     validations:
       required: true
+  - type: dropdown
+    id: apidomain
+    attributes:
+      label: API domain
+      description: Which API domain does your API belong in?
+      options:
+        - Customer
+        - Product
+        - Market/Sales
+        - Service
+        - Resource
+        - Engaged Party
+        - Enterprise
+        - Common
+    validations:
+      required: true
+  - type: input
+    id: portfolio
+    attributes:
+      label: Portfolio
+      description: "Provide the portfolio that the API belongs in.  See go/ea/portfolios for list of portfolio names"
+      placeholder:
+      value:
+    validations:
+      required: true    
   - type: input
     id: wbscode
     attributes:
