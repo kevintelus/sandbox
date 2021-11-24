@@ -1,7 +1,7 @@
 name: Self-serve API Front Door Ticket
 description: Create a self-serve API front door ticket
 title: "[APIFD]: "
-labels: ["apifd"]
+labels: ["apifd","self-serve"]
 assignees:
   - kevintelus
 body:
