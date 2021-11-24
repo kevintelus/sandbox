@@ -10,10 +10,13 @@ body:
       value: |
         By choosing this self-serve form, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.
   - type: checkboxes
-    id: selfservecheck
-    options:
-      - label: I acknowledge that I am opting out of IA engagement for my API design.
-        required: true
+    id: selfserve-check
+    attributes:
+      label: Self-serve agreement
+      description: By submitting this issue, you agree to self-serve API onboarding.
+      options:
+        - label: I acknowledge that I am opting out of IA engagement for my API design.
+          required: true
   - type: textarea
     id: summary
     attributes:
