@@ -1,5 +1,5 @@
-name: API Front Door Ticket
-description: Create an API front door submission
+name: Self-serve API Front Door Ticket
+description: Create a self-serve API front door ticket
 title: "[APIFD]: "
 labels: ["apifd"]
 assignees:
@@ -8,20 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        This is the first step in the API onboarding process to Kong.  A request should be submitted for:
-        * Onboarding new or updated APIs to Kong
-        * Engagement with IA for guidance on IA approach
-        
-        If selecting Self-Serve approach, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.
-  - type: dropdown
-    id: selfserveflag
-    attributes:
-      label: Choose your preferred approach
-      options:
-        - Guided
-        - Self-serve
-    validations:
-      required: true
+        By choosing this self-serve form, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.
+  - type: checkboxes
+    id: selfservecheck
+    options:
+      - label: I acknowledge that I am opting out of IA engagement for my API design.
+        required: true
   - type: textarea
     id: summary
     attributes:
