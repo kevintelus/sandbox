@@ -1,13 +1,14 @@
 name: Self-serve API Front Door Ticket
 description: Create a self-serve API front door ticket
-title: "[APIFD]: "
-labels: ["apifd","self-serve"]
+title: 
+labels: ["self-serve"]
 assignees:
   - kevintelus
 body:
   - type: markdown
     attributes:
       value: |
+        YOU MUST SUBMIT 1 ISSUE PER API
         By choosing this self-serve form, you are opting out of engagement with IA. The API design is subject to auditing and scoring after onboarding.
   - type: checkboxes
     id: selfserve-check
@@ -21,14 +22,14 @@ body:
     id: summary
     attributes:
       label: Description
-      description: "Describe your changes"
+      description: "Provide details about your API (description, purpose, proposal, etc.)"
     validations:
       required: true
   - type: textarea
     id: apiname
     attributes:
       label: API name
-      description: "Provide name(s) of proposed API(s) if you know them.  They will be updated to the actual API name(s) later on once they are finalized."
+      description: "Provide a name for your API.  This may be updated later when your API is finalized."
       placeholder:
       value:
     validations:
@@ -42,6 +43,18 @@ body:
       value:
     validations:
       required: false
+  - type: dropdown
+    id: category
+    attributes:
+      label: API Category
+      description: What category does your API belong in?
+      options:
+        - Experience
+        - Task
+        - Entity
+        - System
+    validations:
+      required: true
   - type: input
     id: wbscode
     attributes:
